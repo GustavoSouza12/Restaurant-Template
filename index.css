@@ -1,0 +1,844 @@
+@font-face {
+    font-family: 'cassandra';
+    src: url('fonts/cassandrapersonaluseregular-3bjg-webfont.woff2') format('woff2'),
+         url('fonts/cassandrapersonaluseregular-3bjg-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'people';
+    src: url('fonts/beautifulpeoplepersonaluse-pyp2-webfont.woff2') format('woff2'),
+         url('fonts/beautifulpeoplepersonaluse-pyp2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+p{
+    font-size: 19px;
+    letter-spacing: 1.3px;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 30px;
+}
+
+/*  NAVBAR */
+.navbar{
+    background-color: rgb(0, 0, 0);
+}
+
+
+.navbar-style{
+    width: 90%;
+     background-color: #ffffff;
+     border-radius: 50px ;
+     border: solid 15px #dda85e;
+}
+.navTitle{
+    text-align: center;
+    font-size: 5em;
+    letter-spacing: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.firstLetter{
+    font-size: 1.5em;
+}
+.letter{
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    font-family: people;
+  
+    
+
+}
+
+nav div div ul {
+    transform: translateX(-300rem);
+    animation: slideIn .5s forwards;
+}
+
+.navbar-brand{
+    position: relative;
+    left: 30px;
+    transform: translateY(-300rem);
+    animation: slideInTop .5s forwards;
+    animation-delay: 0.8;
+}
+
+
+
+
+ul.navbar-nav a:hover { color: #dda85e !important; 
+
+}
+.navbar-toggler{
+    margin-right: 10px;
+    border: solid 2px ;
+     transform: translateY(-300rem);
+    animation: slideInTop .5s forwards;
+    animation-delay: 0.8;
+
+}
+
+
+/* Carousel capition */
+.letterTitle{
+
+    position: relative;
+    top: 50%;
+    font-size: 5rem;
+    padding-bottom: 10px;
+    letter-spacing: 1.5px;
+    font-family: people;
+    color:  #dda85e ;
+    
+}
+
+/*animations */
+
+@keyframes slideIn {
+    from{
+     }
+    to{
+        transform: translateX(0);
+    }
+}
+@keyframes slideInTop {
+    from{
+
+    }
+    to{
+        transform: translateY(0);
+    }
+}
+/* intro */
+.section1{
+ 
+    width:100%;
+    height: 80vh;
+    position: relative;
+    background-color: #ffffff;
+    
+}
+
+
+.introH1{
+    font-family: people;
+}
+.introH4{
+    color: #dda85e;
+    font-size: 1.1em;;
+    font-family: cassandra ;
+    padding: 30px 0px;
+}
+
+
+/*black container between carousel and intro */
+.backgroundHR{
+    
+    border-top:2px solid #dda85e;
+    border-bottom: 2px solid #dda85e ;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+    height: 4em;
+  
+    background-color: rgb(15, 14, 14);
+}
+
+/*card shadow */
+.boxShadow{
+   
+   
+    box-shadow: 70px 80px 10px rgba(0,0,0,0.19)  ;
+    border: solid 1px black;
+   
+   
+    
+  
+}
+/*justify the 2 elements in center */
+.ab{
+    position: absolute;
+   flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+ 
+}
+/*intro card configuration */
+.introCard{
+    display: inline-block;
+    position: relative;
+    margin: 50px;
+     background-color: #ffffff;
+     border: 2px solid rgb(3, 3, 3);
+     
+  
+}
+.imgBorder{
+    border: 3px solid #dda85e;
+}
+
+.section_discover__description:before {
+    display: block;
+    width: 50px;
+    margin: 1rem 0;
+    content: "";
+    border-top: 3px solid #f5a637;
+    align-content: center;
+}
+
+/*button configuration */
+.btn{
+    margin-top: 10px;
+    background-color: rgb(44, 42, 42);
+    color: rgb(226, 178, 105);
+    font-size: 18px;
+    width: 200px;
+    font-weight: 500;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 0.7px;
+    border: none;
+}
+.btn:hover{
+    background-color: #eeb86c;
+    border: 1px solid black;
+    animation: rotate 0.7s ease-in-out both;
+    animation: storm 0.7s ease-in-out both;
+     animation-delay: 0.06s
+}
+
+/*button animation frame */
+@keyframes rotate {
+
+
+    0%
+        {transform: rotate(0deg) translate3d(0, 0, 0)}
+    25%
+        {transform: rotate(3deg) translate3d(0, 0, 0)}
+    50%
+        {transform: rotate(-3deg) translate3d(0, 0, 0)}
+    75%
+        {transform: rotate(1deg) translate3d(0, 0, 0)}
+    100%
+        {transform: rotate(0deg) translate3d(0, 0, 0)}
+}
+  
+@keyframes storm {
+    0%
+      {  transform: translate3d( 0, 0, 0) translateZ(0)}
+    25%
+        {transform: translate3d( 4px, 0, 0) translateZ(0)}
+    50%
+        {transform: translate3d( -3px, 0, 0) translateZ(0)}
+    75%
+        {transform: translate3d( 2px, 0, 0) translateZ(0)}
+    100%
+        {transform: translate3d( 0, 0, 0) translateZ(0)}
+}
+
+
+
+
+
+
+.lineBlack
+{
+   
+    background-color: black;
+    width: 17%;
+    height: 5px;
+}
+.goldenLine{
+    background-color: #f5a637;
+    width: 25%;
+    height: 5px;
+}
+
+/* MENU */
+
+.coverTitle{
+    position: relavite;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -40px;
+    font-family: people;
+    color:#dda85e;
+    font-size: 4rem;
+    opacity: 0.6;
+}
+.TitlesPosition{
+    margin-top: 30px;
+  
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: cassandra;
+    font-size: 2.5rem;
+}
+.menuLine{
+    width: 7%;
+    background-color: #f5a637;
+    height: 3px;
+}   
+.menuLine2{
+ 
+    width: 7%;
+    background-color: #f5a637;
+    height: 3px;
+    
+}   
+
+.menuSection {
+     
+font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+font-size: 14px;
+color:#000;
+margin: 0;
+padding: 0;
+height: 50vh;
+}
+
+.swiper-slide {
+        position: relative;
+        width: 0%;
+        background-position: center;
+        background-size: cover;
+        margin-left: 10px;
+       margin-right: 15px;
+        background-color:#222121;
+  
+}
+.imgMargin{
+    margin: 15px;
+    height: auto;
+    width: 50%;
+    border-radius: 100px;
+    border: 2px solid #dda85e ;
+}     
+.foodLetter{
+    
+    font-size: 2.5rem ;
+    font-family:people;
+    left: -10px;
+    color: #ffffff;
+    margin: 5px;
+} 
+.foodNamePosition{
+    position: absolute;
+    left:55%;
+    top:10%;
+}
+.ingredientsPosition{
+    position: absolute;
+    left:55%;
+    top:30%;
+}
+
+
+.ingredientsLetter{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 2rem ;
+    color: #f5f5f5;
+   
+}
+/*PDF Container*/
+
+.pdfContainer{
+    position:relative;
+    display: flex;
+    justify-content: center;
+    height: 20vh;
+}
+.pdfButton{
+    position: absolute;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    top:25%;
+    height: 10vh;
+    width: 60%;
+    background-color: rgb(233, 229, 229);
+    border: 1px solid #dda85e;
+    
+    
+}
+.pdfButton:hover{
+    background-color: #000;
+    border: 1px solid #dda85e;
+    animation: download;
+    animation-duration: 2s;
+}
+@keyframes download{
+    0%{font-size:1em}
+    50%{font-size: 1.5em}
+    100%{font-size: 1.2em}
+}
+
+.download{
+    font-size: 3rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: #dda85e;
+    opacity: 0.5;
+    
+}
+.download:hover{
+    opacity: 1;
+}
+.pdfLine{
+    margin-top: 30px;
+    width: 7%;
+    background-color: #f5a637;
+    height: 3px;
+   
+}
+
+
+.Note{
+    padding-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 200vh;
+}
+
+.card-group{
+    margin-top: 313px;
+    margin-bottom: 100px;
+}
+.card{
+    border: 5px solid #dda85e !important;
+    background-color: rgb(0, 0, 0);
+}
+.card-margin{
+    margin-right: 15px;
+}
+
+.card-title{
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-family: people;
+    font-weight: 100;
+    color: #f5f5f5;
+}
+.card-text{
+    color:#f5f5f5;
+}
+.checked{
+    color: orange;
+}
+.no-checked{
+    color: white;
+}
+.lineRating{
+    margin-top: 20px;
+    width: 20%;
+    background-color: #f5a637;
+    height: 2px;
+}
+/*Footer */
+footer{
+
+    width: 100%;
+
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+   letter-spacing: 2px;
+    font-family: people;
+    
+    border-top: 2px solid #ccd0d3;
+    border-bottom: 2px solid #ccd0d3;
+  }
+ .segment-one h3{
+     font-family: people;
+     color: #fff;
+     letter-spacing: 3px;
+     margin: 10px 0;
+ } 
+ .segment-two h2{
+     color: #fff;
+    
+ }
+ .segment-two h2::before{
+     content: '|';
+     color: #e2bc51;
+     padding-right: 10px;
+ }
+ .segment-two ul li{
+    border-bottom: 1px solid rgba(255,255,255,0.3);
+    line-height: 40px;
+ }
+ .segment-three h2::before{
+    content: '|';
+    color: #e2bc51;
+    
+    
+}
+.segment-three a{
+    background: #494848;
+    width: 40px;
+    height:40px;
+    display: inline-block;
+    border-radius: 50%;
+}
+.segment-three a i{
+    font-size: 20px;
+    color: #fff;
+    padding: 10px 12px;
+}
+.segment-three a i:hover{
+    color:#e2bc51;
+}
+.segment-four h2::before{
+    content: '|';
+    color: #e2bc51;
+    padding-right: 10px;
+    
+}
+.segment-four form input[type=email]{
+    width:150px;
+   
+}
+.segment-four form input[type=submit]{
+    background: #f5a637;
+    border: none;
+    padding: 3px 15px;
+    margin-left: -3px;
+   
+}
+  footer h2{
+      margin-top: 20px;
+  }
+ .font {
+      font-family: monospace;
+  }
+
+
+footer div ul li {
+    list-style-type: none;
+}
+footer div ul li a{
+    color: #999;
+}
+  footer a:link{
+    text-decoration: none;
+    border-color: #ccd0d3;
+  }
+  a:visited {
+    color:#999999;
+    text-decoration:none;
+  }
+  
+   footer a:hover{
+      color:#e2bc51;
+      text-decoration:none;
+  
+  }
+.padding, h5{
+    text-align: center;
+  
+}
+
+/* responsive configuration */
+
+@media screen and (max-width: 352px){
+.TitlesPosition{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    font-family: cassandra;
+    font-size: 1.2rem;
+}
+}
+@media screen and (max-width: 500px){
+    .TitlesPosition{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-family: cassandra;
+        font-size: 1.2rem;
+    }
+
+.intro{
+    padding-bottom: 120px;
+}
+}
+
+@media screen and (max-width: 768px) {
+    .intro{
+        padding-bottom: 270px;
+    }
+    .coverTitle{
+        position: relavite;
+        display: flex;
+        justify-content: center;
+        margin-bottom: -40px;
+        font-family: people;
+        color:#dda85e;
+        font-size: 3rem;
+        opacity: 0.6;
+        margin-top: 50px;
+    }
+    .letterTitle{
+        position: relative;
+        font-size: 3rem;
+        padding-bottom: 10px;
+        letter-spacing: 1.5px;
+        font-family: people;
+         color:  #dda85e ;
+    }
+   
+    .letter{
+        position: relative;
+        text-align: center;
+        font-size: 1.4rem;
+        letter-spacing: 1.5px;
+        font-family: people;
+        
+   
+     
+        
+    
+    }
+   
+   
+    .boxShadow{
+   
+   
+        box-shadow: 0px 00px 10px rgba(0,0,0,0.19)  ;
+        border: solid 1px black;
+       
+       
+        
+      
+    }
+    ul.navbar-nav a:hover { color: #dda85e !important; 
+        font-family: people;
+        text-transform: Uppercase;
+        font-size: 1.1em;;
+       animation: hoverAnimation;
+       animation-duration: 1s;
+    }
+    @keyframes hoverAnimation{
+        0%{ font-size: 1em; transform: translateY(0);}
+        50%{ font-size: 1.5em; transform: translateY(100);}
+        100%{font-size: 1.3em; transform: translateY(50);}
+    }
+    .TitlesPosition{
+        position: relative;
+        display: flex;
+        justify-content: center;
+        font-family: cassandra;
+        font-size: 1.3rem;
+    }
+
+      .foodLetter{
+    
+        font-size: 1.2rem;
+        font-family: cassandra;     
+        color: #ffffff;
+        margin: 5px;
+    } 
+    .ingredientsPosition{
+        position: absolute;
+        left:55%;
+        top:45%;
+    }  
+    .ingredientsLetter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        color: #f5f5f5;
+        letter-spacing: 2px;;
+    }
+    
+    .btn{
+        
+        background-color: rgb(44, 42, 42);
+        color: rgb(226, 178, 105);
+        font-size: 12px;
+        width: 100px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 0.7px;
+        border: solid 1px #dda85e !important;
+        display: none;
+    }
+    .buttonPosition{
+      
+        float: right;
+        position:absolute;
+        top: 70%;
+        left: 76%;
+    }
+    .imgMargin{
+        margin: 15px 15px 50px 15px;
+        height: auto;
+        width: 50%;
+        border-radius: 100px;
+        border: 2px solid #dda85e ;
+    }
+    .card-group{
+        margin-top: 170px;
+    }
+} 
+
+@media screen and (min-width: 768px) and (max-width: 860px) {
+    
+    .containerMenu{
+       padding-top: 515px;
+    }
+    .ingredientsLetter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.3em;
+        color: #f5f5f5;
+        letter-spacing: 2px;;
+    }
+
+    .foodLetter{
+    
+        font-size: 1.5rem;
+        font-family: cassandra;     
+        color: #ffffff;
+        margin: 5px;
+    } 
+    
+    .buttonPosition{
+        width: 50%;
+        float: right;
+        position:absolute;
+        top: 60%;
+        left: 73%;
+    }
+    .btn{
+      
+        background-color: rgb(44, 42, 42);
+        color: rgb(226, 178, 105);
+        font-size: 17px;
+        height: 60px;
+        width: 150px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 1.5px;
+        border: solid 1px #dda85e;
+    }
+   
+}
+@media screen and (min-width: 858px) and (max-width: 960px){
+    .containerMenu{
+        padding-top: 250px;
+     }
+     .foodLetter{
+    
+        font-size: 1.4rem;
+        font-family: cassandra;     
+        color: #ffffff;
+        margin: 5px;
+    } 
+    .ingredientsLetter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.3em;
+        color: #f5f5f5;
+        letter-spacing: 2px;;
+    }
+    .buttonPosition{
+        width: 50%;
+        float: right;
+        position:absolute;
+        top: 60%;
+        left: 70%;
+    }
+    .btn{
+      
+        background-color: rgb(44, 42, 42);
+        color: rgb(226, 178, 105);
+        font-size: 17px;
+        height: 60px;
+        width: 150px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 1.5px;
+        border: solid 1px #dda85e;
+    }
+    .card-group{
+        margin-top: 210px;
+    }
+}
+@media screen and (min-width: 960px) and (max-width: 1100px){
+
+    
+     .foodLetter{
+    
+        font-size: 1.3rem;
+        font-family: cassandra;     
+        color: #ffffff;
+        margin: 5px;
+    } 
+    .ingredientsLetter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 1.5em;
+        color: #f5f5f5;
+        letter-spacing: 2px;;
+    }
+    .buttonPosition{
+        width: 50%;
+        float: right;
+        position:absolute;
+        top: 60%;
+        left: 75%;
+    }
+    .btn{
+      
+        background-color: rgb(44, 42, 42);
+        color: rgb(226, 178, 105);
+        font-size: 17px;
+        height: 80px;
+        width: 150px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 1.5px;
+        border: solid 1px #dda85e;
+    }
+    .card-group{
+        margin-top: 300px;
+    }
+
+}
+@media screen and (min-width: 1101px){
+    .menu{
+        margin-top: 80px;
+    }
+    
+     .foodLetter{
+    
+        font-size: 2rem;
+        font-family: cassandra;     
+        color: #ffffff;
+        margin: 5px;
+    } 
+    .ingredientsLetter{
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 2.2em;
+        color: #f5f5f5;
+        letter-spacing: 2px;;
+    }
+    .buttonPosition{
+        width: 50%;
+        float: right;
+        position:absolute;
+        top: 60%;
+        left: 80%;
+    }
+    .btn{
+        margin-top: 20px;
+        background-color: rgb(44, 42, 42);
+        color: rgb(226, 178, 105);
+        font-size: 17px;
+        height: 80px;
+        width: 150px;
+        font-weight: 500;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        letter-spacing: 1.5px;
+        border: solid 1px #dda85e;
+    }
+    .card-group{
+        margin-top: 380px;
+    }
+
+}
