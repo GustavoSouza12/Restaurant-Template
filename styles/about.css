@@ -56,12 +56,7 @@ nav div div ul {
     animation: slideInTop .5s forwards;
     animation-delay: 0.8;
 }
-
-
-
-
 ul.navbar-nav a:hover { color: #dda85e !important; 
-
 }
 .navbar-toggler{
     margin-right: 10px;
@@ -69,7 +64,6 @@ ul.navbar-nav a:hover { color: #dda85e !important;
      transform: translateY(-300rem);
     animation: slideInTop .5s forwards;
     animation-delay: 0.8;
-
 }
 @keyframes slideIn {
     from{
@@ -87,7 +81,6 @@ ul.navbar-nav a:hover { color: #dda85e !important;
     }
 }
 
-
 .parallax {
     min-height: 800px;
     background: transparent;
@@ -99,10 +92,8 @@ ul.navbar-nav a:hover { color: #dda85e !important;
     font-size: 70px;
     font-family: people;
     margin: 40px;
-
     line-height: 0.1em;
     border-bottom: 3px solid #000; 
-
 }
 h1 span{
     background:#fff; 
@@ -124,42 +115,36 @@ i.fas{
     color: #f5a637;
     font-size: 50px;
 }
-
 footer{
- 
     width: 100%;
-
     background-color: rgb(0, 0, 0);
     color: rgb(255, 255, 255);
-   letter-spacing: 2px;
+    letter-spacing: 2px;
     font-family: people;
-    
     border-top: 2px solid #ccd0d3;
     border-bottom: 2px solid #ccd0d3;
-  }
- .segment-one h3{
+}
+.segment-one h3{
      font-family: people;
      color: #fff;
      letter-spacing: 3px;
      margin: 10px 0;
- } 
- .segment-two h2{
+} 
+.segment-two h2{
      color: #fff;
-    
- }
- .segment-two h2::before{
+}
+.segment-two h2::before{
      content: '|';
      color: #e2bc51;
      padding-right: 10px;
- }
- .segment-two ul li{
+}
+.segment-two ul li{
     border-bottom: 1px solid rgba(255,255,255,0.3);
     line-height: 40px;
- }
+}
  .segment-three h2::before{
     content: '|';
     color: #e2bc51;
-    
     
 }
 .segment-three a{
@@ -181,27 +166,22 @@ footer{
     content: '|';
     color: #e2bc51;
     padding-right: 10px;
-    
 }
 .segment-four form input[type=email]{
     width:150px;
-   
 }
 .segment-four form input[type=submit]{
     background: #f5a637;
     border: none;
     padding: 3px 15px;
     margin-left: -3px;
-   
 }
-  footer h2{
-      margin-top: 20px;
-  }
- .font {
+footer h2{
+    margin-top: 20px;
+}
+.font {
       font-family: monospace;
-  }
-
-
+}
 footer div ul li {
     list-style-type: none;
 }
@@ -211,18 +191,18 @@ footer div ul li a{
   footer a:link{
     text-decoration: none;
     border-color: #ccd0d3;
-  }
-  a:visited {
+}
+a:visited {
     color:#999999;
     text-decoration:none;
-  }
-  
-   footer a:hover{
-      color:#e2bc51;
-      text-decoration:none;
-  
-  }
+}
+footer a:hover{
+    color:#e2bc51;
+    text-decoration:none;
+}
 .padding, h5{
     text-align: center;
-  
 }
+
+
+  
